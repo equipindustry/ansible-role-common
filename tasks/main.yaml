@@ -1,0 +1,23 @@
+---
+
+- include: dependences.yaml
+  when:
+    - common_only_deploy == False
+
+- include: permissions.yaml
+
+- include: files.yaml
+  when:
+    - common_only_deploy == False
+
+- include: pip.yaml
+  when:
+    - common_only_deploy == False
+
+- include: environment.yaml
+  when:
+    - common_only_deploy == False
+
+- include: apps.yaml
+
+- include: copy_files.yaml
