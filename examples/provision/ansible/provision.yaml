@@ -1,0 +1,12 @@
+---
+# Ansible playbook for a common
+
+- name: Common stuff for all the server
+  hosts: all
+  become: true
+  gather_facts: no
+  roles:
+    - equipindustry.common
+  tags:
+    - all
+    - common
