@@ -14,8 +14,6 @@
     - common_only_deploy == False
 
 - include: environment.yaml
-  when:
-    - common_only_deploy == False
 
 - include: apps.yaml
 
