@@ -1,5 +1,4 @@
 ---
-
 # - name: Set motd
 #   template:
 #     src: 60-warning.j2

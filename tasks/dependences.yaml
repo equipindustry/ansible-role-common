@@ -1,5 +1,4 @@
 ---
-
 - name: Upgrade all packages
   apt:
     upgrade: true
@@ -8,7 +7,7 @@
 - name: Install common package dependencies
   package: name="{{ item }}" state=present
   become: true
-  with_items: "{{ common_packages | default([]) }}"
+  with_items: '{{ common_packages | default([]) }}'
   register: install_common_packages
   when: common_packages is defined
   tags:
