@@ -1,5 +1,4 @@
 ---
-
 - include: dependences.yaml
   when:
     - common_only_deploy == False

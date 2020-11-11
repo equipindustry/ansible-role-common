@@ -2,9 +2,9 @@
 # vars file for common
 
 _common_package_dependencies:
-  - "vim"
-  - "git"
+  - 'vim'
+  - 'git'
 
 _common_dependencies:
-  - name: "python2.7-dev"
-    version: ""
+  - name: 'python2.7-dev'
+    version: ''
