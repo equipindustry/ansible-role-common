@@ -126,6 +126,17 @@ Add: files to server:
         permissions: 0640
 
 
+Add: value to file:
+
+.. code:: yaml
+
+    common_environment_dict:
+      path: /usr/src/server/file
+      permissions: 0640
+      envs:
+        KEY: Value
+
+
 License
 -------
 
