@@ -19,10 +19,10 @@ common_only_deploy: no
 #     force: yes
 #     location: "{{ apps_path }}"
 
-common_environment_dict:
-  path: /usr/src/server/file
-  owner: ubuntu
-  group: ubuntu
-  permissions: 0640
-  envs:
-    KEY: Value
+# common_environment_dict:
+#   path: /usr/src/server/file
+#   owner: ubuntu
+#   group: ubuntu
+#   permissions: 0640
+#   envs:
+#     KEY: Value
